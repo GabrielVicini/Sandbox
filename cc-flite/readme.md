@@ -109,6 +109,6 @@ If you see a `CompileError` about an unexpected instruction, that is why.
 
 ## Credits
 
-Speech synthesis by [flite-rs](https://github.com/GabrielVicini/flite-rs), a
+Speech synthesis by [flite-rs](https://github.com/GabrielVicini/flite-rs) (me), a
 Rust implementation of the Flite and Festival diphone techniques. Translation to
 Lua by [wasm2lua](https://github.com/SwadicalRag/wasm2lua).
