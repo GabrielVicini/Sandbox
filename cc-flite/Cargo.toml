@@ -1,0 +1,17 @@
+[package]
+name = "cc-flite"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+flite-rs = { version = "0.2", default-features = false }
+
+[profile.release]
+opt-level = "z"
+lto = true
+panic = "abort"
+codegen-units = 1
+strip = true
