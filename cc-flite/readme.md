@@ -3,7 +3,7 @@
 Text to speech inside Minecraft, running on a ComputerCraft computer.
 
 There is no server call and no internet. The whole synthesiser runs on the
-in-game computer. It is a Rust speech engine compiled to WebAssembly, then
+in-game computer. It is a [Rust speech engine compiled to WebAssembly](https://github.com/GabrielVicini/flite-rs), then
 translated into plain Lua so CC:Tweaked can run it. You give it a string, it
 gives you back DFPWM audio you can hand to a speaker.
 
