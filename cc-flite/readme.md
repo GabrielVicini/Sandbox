@@ -1,6 +1,6 @@
 # cc-flite
 
-Text to speech inside Minecraft, running on a ComputerCraft computer.
+Text to speech inside Minecraft, [running on a ComputerCraft computer.](https://www.youtube.com/watch?v=l-VukvxbXqo)
 
 There is no server call and no internet. The whole synthesiser runs on the
 in-game computer. It is a [Rust speech engine compiled to WebAssembly](https://github.com/GabrielVicini/flite-rs), then
