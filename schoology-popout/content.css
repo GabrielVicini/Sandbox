@@ -1,0 +1,41 @@
+.sgy-popout-bar {
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+  margin: 4px 0 6px;
+  font-family: system-ui, sans-serif;
+}
+.sgy-popout-btn {
+  background: #0070c0;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.sgy-popout-btn:hover { background: #005a9c; }
+
+/* Maximized (in-page) state */
+iframe.sgy-popout-max {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  z-index: 2147483646 !important;
+  background: #fff !important;
+  border: 0 !important;
+}
+.sgy-popout-bar.sgy-popout-bar-max {
+  position: fixed;
+  top: 8px;
+  right: 12px;
+  margin: 0;
+  z-index: 2147483647;
+}
+.sgy-popout-bar.sgy-popout-bar-max .sgy-popout-btn:not(:nth-child(3)) { display: none; }
+html.sgy-popout-noscroll, html.sgy-popout-noscroll body { overflow: hidden !important; }
